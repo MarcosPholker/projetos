@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+.header{
+    color: white;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 100%;
+}
+.header h1{
+    padding: 10px;
+    background-color: rgba(222, 184, 135, 0.9);
+}
+.conteudo{
+    position: relative;
+    width: 60%;
+    height: 550px;
+    margin: auto;
+    background-image: url(images/people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.formulario{
+    text-align: left;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    width: 250px;
+    height: 85%;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(-0%,-50%);
+}
+.formulario p {
+    margin-bottom: 10px;
+}
+.formEnvio input{
+    border-style: none;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.estado{
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("./images/arrow.jpg");
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+    border-style: none;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.botao{
+    cursor: pointer;
+    font-weight: 800;
+    border-style: none;
+    color: white;
+    background-color: rgba(222, 184, 135, 0.9);
+    font-size: 20px;
+    width: 100%;
+}
+
+.botao:hover{
+    font-size: 25px;
+    transition: 2s ease-in-out;
+}
+.info{
+    color: white;
+    position: relative;
+    background-color: rgb(54, 53, 53);
+    width: 60%;
+    height: 300px;
+    margin: auto;
+}
+.info h2{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.conteudoInfo{
+    width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%, -50%);
+}
+.conteudoInfo img{
+    width: 150px;
+    float: left;
+    margin-right: 40px;
+}
